@@ -1,0 +1,49 @@
+{
+  "items": [
+    {
+      "name": "Kindle Side Card",
+      "items": [
+        {
+          "name": "Start",
+          "action": "./kindle-side-card.sh",
+          "params": "start",
+          "exitmenu": true,
+          "refresh": false,
+          "status": false
+        },
+        {
+          "name": "Refresh Once",
+          "action": "./kindle-side-card.sh",
+          "params": "refresh",
+          "exitmenu": true,
+          "refresh": false,
+          "status": false
+        },
+        {
+          "name": "Previous Page",
+          "action": "./kindle-side-card.sh",
+          "params": "prev",
+          "exitmenu": true,
+          "refresh": false,
+          "status": false
+        },
+        {
+          "name": "Next Page",
+          "action": "./kindle-side-card.sh",
+          "params": "next",
+          "exitmenu": true,
+          "refresh": false,
+          "status": false
+        },
+        {
+          "name": "Stop",
+          "action": "./kindle-side-card.sh",
+          "params": "stop",
+          "exitmenu": true,
+          "refresh": false,
+          "status": false
+        }
+      ]
+    }
+  ]
+}
